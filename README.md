@@ -1,4 +1,4 @@
-# jarvis
+# Jarvis
     My personal assistant. Jarvis. 
     Inspired from IronMan, this assistant will do the tasks as commanded by me.
 
@@ -9,29 +9,29 @@
     Have fun building.
 
 
-                    JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
-                    JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-                              JJJJJJJJJ
-             JJJJJJJJ         JJJJJJJJJ
-             JJJJJJJJ         JJJJJJJJJ
-              JJJJJJJ         JJJJJJJ
-               JJJJJJJ       JJJJJJJJ
-                 JJJJJJJJ JJJJJJJJJ
-                   JJJJJJJJJJJJJJ
-                     JJJJJJJJJJ
-                      JJJJJJJJ
+#                    JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+#                    JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#                              JJJJJJJJJ
+#             JJJJJJJJ         JJJJJJJJJ
+#             JJJJJJJJ         JJJJJJJJJ
+#              JJJJJJJ         JJJJJJJ
+#               JJJJJJJ       JJJJJJJJ
+#                 JJJJJJJJ JJJJJJJJJ
+#                   JJJJJJJJJJJJJJ
+#                     JJJJJJJJJJ
+#                      JJJJJJJJ
