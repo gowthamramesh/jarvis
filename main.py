@@ -8,11 +8,13 @@
 #
 
 
+
 #	Imports
 from __future__ import print_function
+import sys,os
+os.chdir(os.path.dirname(sys.argv[0]))
 import logging.config
 import logging
-import sys
 from Queler.QueryHandler import QueryHandler
 
 logging.config.fileConfig('logging.conf')
