@@ -9,14 +9,8 @@
     Have fun building.
 
 
-
-
-
-
-
-
-                        JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
-                        JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+                    JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+                    JJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
                               JJJJJJJJJ
                               JJJJJJJJJ
                               JJJJJJJJJ
