@@ -2,7 +2,6 @@
 #
 #    JARVIS
 #    Author    :    Gowtham Ramesh
-#    Org        :    G Inc. 
 #    Date    :    Aug 09 2017
 #    Desc    :     Jarvis is my personal assistant. Just like Ironman's
 #
@@ -34,6 +33,8 @@ class QueryHandler:
     def __init__(self, inputQuery = None):
         self.inputQuery = inputQuery
         self.tokens = []
+        self.__APPID__ = "18680fc7-d5f3-41b8-95ce-1fa4743ed70d"
+        self.__APPKEY__ = "e4d7710b899342e3888c798fbb02ca13"
     
     def process_res(self, res):
         '''
@@ -62,10 +63,8 @@ class QueryHandler:
 
     def IdentifyIntent(self):
         try:
-            APPID = "18680fc7-d5f3-41b8-95ce-1fa4743ed70d"
-            APPKEY = "dbbbc332c5b64c87ad0eaf1f82bea0a7"
             TEXT = self.inputQuery
-            CLIENT = LUISClient(APPID, APPKEY, True)
+            CLIENT = LUISClient(self.__APPID__, self.__APPKEY__, True)
             res = CLIENT.predict(TEXT)
             while res.get_dialog() is not None and not res.get_dialog().is_finished():
                 TEXT = raw_input(u'%s\n'%res.get_dialog().get_prompt())
@@ -92,8 +91,9 @@ class QueryHandler:
         userIntent = self.IdentifyIntent();
         topIntent = userIntent.get_top_intent().get_name()
         print (topIntent)
-        if topIntent in intentModules:
-        	intentModules[topIntent].ProcessIntent(userIntent)
+        for intentMod in intentModules:
+        	if intentModules[intentMod].CanProcessIntent(topIntent):
+        		intentModules[intentMod].ProcessIntent(userIntent)
 
     #    QueryHandler::PrintQuery
     #    Description

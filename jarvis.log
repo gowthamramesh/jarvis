@@ -1,2 +1,6 @@
-2017-08-12 15:30:27 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#76 : User entered : how is the weather today?
-2017-08-12 15:30:27 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#77 : Processing User input
+2017-08-12 16:06:53 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#76 : User entered : who is barack obama?
+2017-08-12 16:06:53 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#77 : Processing User input
+2017-08-12 16:07:07 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#76 : User entered : who is donald trump?
+2017-08-12 16:07:07 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#77 : Processing User input
+2017-08-12 16:07:20 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#76 : User entered : give me weather forecast for next ten days
+2017-08-12 16:07:20 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#77 : Processing User input
