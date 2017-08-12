@@ -34,13 +34,14 @@ queler = QueryHandler();
 #	Returns
 #		None
 def main () :
-	print ("How may I help you?")
-	UserInput	=	""
-	UserInput = sys.stdin.readline()
-	UserInput = UserInput.rstrip('\n')
-	logger.info ("User entered : %s", UserInput)
-	logger.info ("Processing User input")
-	queler.ProcessQuery(UserInput)
+	while 1:
+		print ("How may I help you?")
+		UserInput	=	""
+		UserInput = sys.stdin.readline()
+		UserInput = UserInput.rstrip('\n')
+		logger.info ("User entered : %s", UserInput)
+		logger.info ("Processing User input")
+		queler.ProcessQuery(UserInput)
 
 ######################### End of User defined functions ######################
 

@@ -1,2 +1,6 @@
-2017-08-09 23:59:30 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#41 : User entered : this is a test sentence
-2017-08-09 23:59:30 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#42 : Processing User input
+2017-08-11 23:15:25 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#42 : User entered : how is the weather in seattle?
+2017-08-11 23:15:25 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#43 : Processing User input
+2017-08-11 23:15:36 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#42 : User entered : add milk to list
+2017-08-11 23:15:36 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#43 : Processing User input
+2017-08-11 23:15:47 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#42 : User entered : clear my shopping list
+2017-08-11 23:15:47 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#43 : Processing User input
