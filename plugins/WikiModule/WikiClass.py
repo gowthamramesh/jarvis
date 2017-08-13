@@ -5,16 +5,16 @@
 #    Date    :    Aug 12 2017
 #    Desc    :     Jarvis is my personal assistant. Just like Ironman's
 #
-
+import wikipedia
 class WikiClass:
     def __init__(self):
         self.MyIntentSet = ["GetWikiInfo"]
 
     def CanProcessIntent(self, topIntent):
-    	if topIntent in self.MyIntentSet:
-    		return True
-    	else:
-    		return False
+        if topIntent in self.MyIntentSet:
+            return True
+        else:
+            return False
 
     def process_res(self, res):
         '''
@@ -43,7 +43,10 @@ class WikiClass:
 
 
     def ProcessIntent(self, userIntent):
-    	self.process_res(userIntent)
+        #self.process_res(userIntent)
+        for entity in userIntent.get_entities():
+            print(wikipedia.summary(entity.get_name(), 4))
+            break;
 
     def GetMyIntent(self):
         return "GetWikiInfo"

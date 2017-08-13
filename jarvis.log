@@ -1,6 +1,14 @@
-2017-08-12 16:06:53 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#76 : User entered : who is barack obama?
-2017-08-12 16:06:53 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#77 : Processing User input
-2017-08-12 16:07:07 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#76 : User entered : who is donald trump?
-2017-08-12 16:07:07 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#77 : Processing User input
-2017-08-12 16:07:20 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#76 : User entered : give me weather forecast for next ten days
-2017-08-12 16:07:20 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#77 : Processing User input
+2017-08-13 15:05:24 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#76 : User entered : who is donawho is donald trump
+2017-08-13 15:05:24 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#77 : Processing User input
+2017-08-13 15:05:25 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#208 : Starting new HTTP connection (1): en.wikipedia.org
+2017-08-13 15:05:25 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#396 : http://en.wikipedia.org:80 "GET /w/api.php?srinfo=suggestion&srsearch=donald+trump&format=json&srlimit=1&list=search&srprop=&limit=1&action=query HTTP/1.1" 301 0
+2017-08-13 15:05:25 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#824 : Starting new HTTPS connection (1): en.wikipedia.org
+2017-08-13 15:05:26 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#396 : https://en.wikipedia.org:443 "GET /w/api.php?srinfo=suggestion&srsearch=donald+trump&format=json&srlimit=1&list=search&srprop=&limit=1&action=query HTTP/1.1" 200 155
+2017-08-13 15:05:26 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#208 : Starting new HTTP connection (1): en.wikipedia.org
+2017-08-13 15:05:26 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#396 : http://en.wikipedia.org:80 "GET /w/api.php?inprop=url&redirects=&format=json&ppprop=disambiguation&prop=info%7Cpageprops&titles=Donald+Trump&action=query HTTP/1.1" 301 0
+2017-08-13 15:05:26 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#824 : Starting new HTTPS connection (1): en.wikipedia.org
+2017-08-13 15:05:26 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#396 : https://en.wikipedia.org:443 "GET /w/api.php?inprop=url&redirects=&format=json&ppprop=disambiguation&prop=info%7Cpageprops&titles=Donald+Trump&action=query HTTP/1.1" 200 272
+2017-08-13 15:05:26 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#208 : Starting new HTTP connection (1): en.wikipedia.org
+2017-08-13 15:05:26 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#396 : http://en.wikipedia.org:80 "GET /w/api.php?format=json&exsentences=3&prop=extracts&titles=Donald+Trump&action=query&explaintext= HTTP/1.1" 301 0
+2017-08-13 15:05:26 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#824 : Starting new HTTPS connection (1): en.wikipedia.org
+2017-08-13 15:05:27 : DEBUG : /Library/Python/2.7/site-packages/urllib3/connectionpool.py#396 : https://en.wikipedia.org:443 "GET /w/api.php?format=json&exsentences=3&prop=extracts&titles=Donald+Trump&action=query&explaintext= HTTP/1.1" 200 336

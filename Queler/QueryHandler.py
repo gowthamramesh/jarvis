@@ -90,10 +90,9 @@ class QueryHandler:
 
         userIntent = self.IdentifyIntent();
         topIntent = userIntent.get_top_intent().get_name()
-        print (topIntent)
         for intentMod in intentModules:
-        	if intentModules[intentMod].CanProcessIntent(topIntent):
-        		intentModules[intentMod].ProcessIntent(userIntent)
+            if intentModules[intentMod].CanProcessIntent(topIntent):
+                intentModules[intentMod].ProcessIntent(userIntent)
 
     #    QueryHandler::PrintQuery
     #    Description
