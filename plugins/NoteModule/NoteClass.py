@@ -107,8 +107,7 @@ class NoteClass:
             print(u'"%s":' % entity.get_name())
             print(u'Type: %s, Score: %s' % (entity.get_type(), entity.get_score()))
 
-    def processAddToNote(self, userIntent):
-        query = userIntent.get_query()
+    def processAddToNote(self, query):
         nBody = ""
         if self.jarvislist.content is None:
             nBody = '<?xml version="1.0" encoding="UTF-8"?>'
@@ -131,17 +130,19 @@ class NoteClass:
             return False
 
     def ProcessIntent(self, userIntent):
-        self.process_res(userIntent)
+        #self.process_res(userIntent)
         topIntent = userIntent.get_top_intent().get_name()
         if topIntent == 'Note.AddToNote':
-            print "Processing AddToNote"
-            self.processAddToNote(userIntent)
+            for entity in userIntent.get_entities():
+                if entity.get_type() == "Items":
+                    self.processAddToNote(entity.get_name())
         elif topIntent == 'Note.Create':
             print "Processing create note"
         elif topIntent == 'Note.Delete':
             print "Processing delete note"
         else:
             print "Unknown Note processing"
+        print ("Easy peasy... Done...")
     def GetMyIntent(self):
         return "GetNoteInfo"
 

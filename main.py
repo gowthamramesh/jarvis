@@ -18,6 +18,7 @@ import logging.config
 import logging
 from Queler.QueryHandler import QueryHandler
 from ConfigParser import SafeConfigParser
+from random import randint
 
 
 #    Setup
@@ -39,6 +40,19 @@ CLSNAME = "ClassName"
 intents = {}
 intentModules = {}
 
+
+# Welcome phrases
+welcome_phrase = [
+	"Hello Chief, How can i help you?",
+	"Hey there, Jarvis at your service",
+	"Howdy! What can i do for you?",
+	"Master Bruce, your wish is your command",
+	"I am busy. Try again afte... Ahhhh, tell me what you want",
+	"I cant work for you anymore. Ok one last time. What can i do?",
+	"Hey Gowtham. wassup?",
+	"Dump Siri, Chuck Google Assistant. I am the greatest PA in the world. Try me..."
+]
+
 ######################### User defined functions #########################
 
 def my_import(name):
@@ -51,13 +65,13 @@ def my_import(name):
 def loadModules () :
     intents = parser.sections();
     for intent in intents:
-		modname = parser.get(intent, MODNAME)
-		classname = parser.get(intent,CLSNAME)
-		importmod = PLUGIN_FOLDER + "." + modname + "." + classname
-		module = __import__(importmod, globals={}, locals={}, fromlist = ["*"])
-		mod = getattr(module, classname)
-		obj = mod()
-		intentModules[intent] = obj
+        modname = parser.get(intent, MODNAME)
+        classname = parser.get(intent,CLSNAME)
+        importmod = PLUGIN_FOLDER + "." + modname + "." + classname
+        module = __import__(importmod, globals={}, locals={}, fromlist = ["*"])
+        mod = getattr(module, classname)
+        obj = mod()
+        intentModules[intent] = obj
 
 #    Main
 #    Description
@@ -69,18 +83,19 @@ def loadModules () :
 def main () :
     loadModules()
     while 1:
-        print ("How may I help you?")
+        print ("\n%s\n" % welcome_phrase[randint(0,7)])
         UserInput    =    ""
         UserInput = sys.stdin.readline()
         UserInput = UserInput.rstrip('\n')
         logger.info ("User entered : %s", UserInput)
         logger.info ("Processing User input")
-        queler.ProcessQuery(UserInput, intentModules)
+        if UserInput != "":
+        	queler.ProcessQuery(UserInput, intentModules)
 
 ######################### End of User defined functions ######################
 
 # Welcome the User
-print ("Hello, I am Gowtham\'s Assistant, Jarvis")
+print ("\nHello, I am Gowtham\'s Assistant, Jarvis")
 
 #     Call the main function
 if __name__ == '__main__':
