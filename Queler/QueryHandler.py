@@ -20,6 +20,8 @@
 #
 
 from luis_sdk import LUISClient
+from gtts import gTTS
+import os
 
 class QueryHandler:
     
@@ -92,7 +94,10 @@ class QueryHandler:
         topIntent = userIntent.get_top_intent().get_name()
         for intentMod in intentModules:
             if intentModules[intentMod].CanProcessIntent(topIntent):
-                intentModules[intentMod].ProcessIntent(userIntent)
+                pluginResponse = intentModules[intentMod].ProcessIntent(userIntent)
+                tts = gTTS(text=pluginResponse, lang='en')
+                tts.save("jarvis.mp3")
+                os.system("afplay jarvis.mp3")
 
     #    QueryHandler::PrintQuery
     #    Description

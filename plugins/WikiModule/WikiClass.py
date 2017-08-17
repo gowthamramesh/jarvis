@@ -45,8 +45,10 @@ class WikiClass:
     def ProcessIntent(self, userIntent):
         #self.process_res(userIntent)
         for entity in userIntent.get_entities():
-            print(wikipedia.summary(entity.get_name(), 4))
-            break;
+            summary = wikipedia.summary(entity.get_name(), 4) 
+            print (summary)
+            summary = wikipedia.summary(entity.get_name(), 2) 
+            return summary
 
     def GetMyIntent(self):
         return "GetWikiInfo"

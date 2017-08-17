@@ -143,6 +143,7 @@ class NoteClass:
         else:
             print "Unknown Note processing"
         print ("Easy peasy... Done...")
+        return "Note added"
     def GetMyIntent(self):
         return "GetNoteInfo"
 
