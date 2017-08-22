@@ -1,4 +1,736 @@
-2017-08-16 22:10:30 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#90 : User entered : current weather
-2017-08-16 22:10:30 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#91 : Processing User input
-2017-08-16 22:11:35 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#90 : User entered : Forecast for seattle
-2017-08-16 22:11:35 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#91 : Processing User input
+2017-08-21 21:30:58 : INFO : build/bdist.macosx-10.12-intel/egg/phue.py#727 : Attempting to connect to the bridge...
+2017-08-21 21:30:58 : INFO : build/bdist.macosx-10.12-intel/egg/phue.py#742 : Using ip: 192.168.0.2
+2017-08-21 21:30:58 : INFO : build/bdist.macosx-10.12-intel/egg/phue.py#746 : Using username from config: j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1
+2017-08-21 21:30:58 : INFO : build/bdist.macosx-10.12-intel/egg/phue.py#727 : Attempting to connect to the bridge...
+2017-08-21 21:30:58 : INFO : build/bdist.macosx-10.12-intel/egg/phue.py#730 : Using ip: 192.168.0.2
+2017-08-21 21:30:58 : INFO : build/bdist.macosx-10.12-intel/egg/phue.py#731 : Using username: j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1
+2017-08-21 21:30:59 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#90 : User entered : disco
+2017-08-21 21:30:59 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#91 : Processing User input
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : GET /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/ None
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : {"1":{"state":{"on":true,"bri":254,"hue":63462,"sat":254,"effect":"none","xy":[0.6179,0.2903],"ct":153,"alert":"none","colormode":"xy","reachable":true},"type":"Extended color light","name":"Lamp 1","modelid":"LCT007","manufacturername":"Philips","uniqueid":"00:17:88:01:10:25:34:c0-0b","swversion":"5.50.1.19085"},"3":{"state":{"on":true,"bri":254,"hue":23671,"sat":254,"effect":"none","xy":[0.4291,0.5032],"ct":319,"alert":"none","colormode":"xy","reachable":true},"type":"Extended color light","name":"Lamp 2","modelid":"LCT007","manufacturername":"Philips","uniqueid":"00:17:88:01:10:26:a7:e6-0b","swversion":"5.50.1.19085"},"4":{"state":{"on":true,"bri":254,"hue":30478,"sat":254,"effect":"none","xy":[0.3541,0.4096],"ct":211,"alert":"none","colormode":"xy","reachable":true},"type":"Extended color light","name":"Bedside lamp","modelid":"LCT007","manufacturername":"Philips","uniqueid":"00:17:88:01:10:4a:97:ad-0b","swversion":"5.50.1.19085"}}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.7824519731756375, 0.036148302813724054]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.7824519731756375, 0.036148302813724054]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.7825,0.0361]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.7825, 0.0361]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.6118447657500693, 0.6711259519395604]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.6118447657500693, 0.6711259519395604]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.6118,0.6711]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.6118, 0.6711]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.45093563583797447, 0.9614529269939618]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.45093563583797447, 0.9614529269939618]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.4509,0.9615]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.4509, 0.9615]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.34762208762257785, 0.34282381634233683]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.34762208762257785, 0.34282381634233683]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.3476,0.3428]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.3476, 0.3428]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.3510298384942253, 0.2016520054453529]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.3510298384942253, 0.2016520054453529]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.3510,0.2016]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.351, 0.2016]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.8855338833510008, 0.2521334831295229]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.8855338833510008, 0.2521334831295229]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.8855,0.2521]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.8855, 0.2521]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5605089199375821, 0.16507011212247458]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.5605089199375821, 0.16507011212247458]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.5605,0.1651]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.5605, 0.1651]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.07147801379484275, 0.2123756768224564]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.07147801379484275, 0.2123756768224564]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.0715,0.2124]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.0715, 0.2124]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.529700927700792, 0.7596156478856193]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.529700927700792, 0.7596156478856193]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.5297,0.7596]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.5297, 0.7596]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.8086787369511558, 0.25935103384595215]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.8086787369511558, 0.25935103384595215]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.8087,0.2594]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.8087, 0.2594]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.26027696840836234, 0.208515676428501]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.26027696840836234, 0.208515676428501]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.2603,0.2085]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.2603, 0.2085]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.4427894188827227, 0.34067202643291705]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.4427894188827227, 0.34067202643291705]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.4428,0.3407]}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.4428, 0.3407]}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.17320777237511475, 0.1259979615343253]}
+2017-08-21 21:31:00 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.17320777237511475, 0.1259979615343253]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.1732,0.1260]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.1732, 0.126]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.06903947991180659, 0.5460140573808993]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.06903947991180659, 0.5460140573808993]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.0690,0.5460]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.069, 0.546]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.19152670186665466, 0.8303581610511916]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.19152670186665466, 0.8303581610511916]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.1915,0.8304]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.1915, 0.8304]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.49983859771598993, 0.21345705853828245]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.49983859771598993, 0.21345705853828245]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.4998,0.2135]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.4998, 0.2135]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.30643234742406167, 0.325025706648717]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.30643234742406167, 0.325025706648717]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.3064,0.3250]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.3064, 0.325]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9624157237006851, 0.12618969254919898]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.9624157237006851, 0.12618969254919898]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.9624,0.1262]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.9624, 0.1262]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.15700005600497635, 0.04660309231031745]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.15700005600497635, 0.04660309231031745]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.1570,0.0466]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.157, 0.0466]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.4414060212468489, 0.06861087032642366]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.4414060212468489, 0.06861087032642366]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.4414,0.0686]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.4414, 0.0686]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.3989835820320601, 0.6695102050063202]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.3989835820320601, 0.6695102050063202]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.3990,0.6695]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.399, 0.6695]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.27865676894820157, 0.8309252681608923]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.27865676894820157, 0.8309252681608923]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.2787,0.8309]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.2787, 0.8309]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.7118706613729742, 0.7121546360733858]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.7118706613729742, 0.7121546360733858]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.7119,0.7122]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.7119, 0.7122]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.813557122450369, 0.28344693776377516]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.813557122450369, 0.28344693776377516]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.8135,0.2835]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.8135, 0.2835]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.307794047064476, 0.2636695307374334]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.307794047064476, 0.2636695307374334]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.3078,0.2637]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.3078, 0.2637]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5467644125940904, 0.2073408167872074]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.5467644125940904, 0.2073408167872074]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.5468,0.2073]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.5468, 0.2073]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.0766403988253721, 0.12265056971371291]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.0766403988253721, 0.12265056971371291]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.0766,0.1227]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.0766, 0.1227]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.8850157291853259, 0.5361231069230092]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.8850157291853259, 0.5361231069230092]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.8850,0.5361]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.885, 0.5361]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.7419118401917646, 0.1782271880950117]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.7419118401917646, 0.1782271880950117]}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.7419,0.1782]}}]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.7419, 0.1782]}}]]
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:01 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.8829862719766522, 0.12972186389203955]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.8829862719766522, 0.12972186389203955]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.8830,0.1297]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.883, 0.1297]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.06220968208819422, 0.7934492753616862]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.06220968208819422, 0.7934492753616862]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.0622,0.7935]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.0622, 0.7935]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.842891987143454, 0.17932820489930712]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.842891987143454, 0.17932820489930712]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.8429,0.1793]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.8429, 0.1793]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.09121422308065319, 0.5593165674401043]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.09121422308065319, 0.5593165674401043]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.0912,0.5593]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.0912, 0.5593]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.46315559604214307, 0.8448937808963602]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.46315559604214307, 0.8448937808963602]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.4632,0.8449]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.4632, 0.8449]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5347959264758688, 0.47892827803278826]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.5347959264758688, 0.47892827803278826]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.5348,0.4789]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.5348, 0.4789]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5290370606023426, 0.489526960351101]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.5290370606023426, 0.489526960351101]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.5290,0.4895]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.529, 0.4895]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.6267450335753587, 0.5622402775322565]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.6267450335753587, 0.5622402775322565]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.6267,0.5622]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.6267, 0.5622]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9482631801580954, 0.5529412471308218]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.9482631801580954, 0.5529412471308218]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.9483,0.5529]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.9483, 0.5529]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.09658904362322118, 0.03140954394258011]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.09658904362322118, 0.03140954394258011]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.0966,0.0314]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.0966, 0.0314]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.0997166181427509, 0.402224096426952]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.0997166181427509, 0.402224096426952]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.0997,0.4022]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.0997, 0.4022]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.2929832052355391, 0.7879797324855113]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.2929832052355391, 0.7879797324855113]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.2930,0.7880]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.293, 0.788]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.7438396278933105, 0.5551641402349445]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.7438396278933105, 0.5551641402349445]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.7438,0.5552]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.7438, 0.5552]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.33060875119330835, 0.49671179036703905]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.33060875119330835, 0.49671179036703905]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.3306,0.4967]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.3306, 0.4967]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.6188251158556118, 0.8530014074109029]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.6188251158556118, 0.8530014074109029]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.6188,0.8530]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.6188, 0.853]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.1275263094338409, 0.08017073283785592]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.1275263094338409, 0.08017073283785592]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.1275,0.0802]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.1275, 0.0802]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.07239481051006724, 0.9161373794715384]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.07239481051006724, 0.9161373794715384]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.0724,0.9161]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.0724, 0.9161]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9852652498212529, 0.667748911478125]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.9852652498212529, 0.667748911478125]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.9853,0.6678]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.9853, 0.6678]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9606484970181707, 0.6096352548287076]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.9606484970181707, 0.6096352548287076]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.9606,0.6096]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.9606, 0.6096]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.8616905978757441, 0.3664809363741611]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.8616905978757441, 0.3664809363741611]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.8617,0.3665]}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.8617, 0.3665]}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.6111379587108768, 0.5632095997545928]}
+2017-08-21 21:31:02 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.6111379587108768, 0.5632095997545928]}
+2017-08-21 21:31:09 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#90 : User entered : disco
+2017-08-21 21:31:09 : INFO : /Users/gowthamramesh/Documents/MyProjects/jarvis/main.py#91 : Processing User input
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.135718080121644, 0.12241845158898446]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.135718080121644, 0.12241845158898446]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.1357,0.1224]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.1357, 0.1224]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9127534431785289, 0.25671079458474666]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.9127534431785289, 0.25671079458474666]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.9127,0.2567]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.9127, 0.2567]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9396297752593382, 0.5756888462982219]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.9396297752593382, 0.5756888462982219]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.9396,0.5757]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.9396, 0.5757]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9023713166579584, 0.8966241034167725]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.9023713166579584, 0.8966241034167725]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.9024,0.8966]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.9024, 0.8966]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.22400822555110989, 0.8646373540290767]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.22400822555110989, 0.8646373540290767]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.2240,0.8646]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.224, 0.8646]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.7385872543899781, 0.23083317513520596]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.7385872543899781, 0.23083317513520596]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.7386,0.2308]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.7386, 0.2308]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.8317882596615916, 0.06810412064610583]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.8317882596615916, 0.06810412064610583]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.8318,0.0681]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.8318, 0.0681]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.20538951140286843, 0.8971558725223341]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.20538951140286843, 0.8971558725223341]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.2054,0.8972]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.2054, 0.8972]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.892716980006424, 0.3478558463532567]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.892716980006424, 0.3478558463532567]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.8927,0.3479]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.8927, 0.3479]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.08836064959251566, 0.07942249853611072]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.08836064959251566, 0.07942249853611072]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.0884,0.0794]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.0884, 0.0794]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5054026778507116, 0.6463643281870671]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.5054026778507116, 0.6463643281870671]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.5054,0.6464]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.5054, 0.6464]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.4559643196999007, 0.18597426839615228]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.4559643196999007, 0.18597426839615228]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.4560,0.1860]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.456, 0.186]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.021256757425887174, 0.980184079052704]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.021256757425887174, 0.980184079052704]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.0213,0.9802]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.0213, 0.9802]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9357856478082299, 0.16459447287989593]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.9357856478082299, 0.16459447287989593]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.9358,0.1646]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.9358, 0.1646]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5627215929867295, 0.43563868832187325]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.5627215929867295, 0.43563868832187325]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.5627,0.4356]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.5627, 0.4356]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.13632671660088225, 0.6552135009717523]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.13632671660088225, 0.6552135009717523]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.1363,0.6552]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.1363, 0.6552]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.40892051250762484, 0.13607103894163297]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.40892051250762484, 0.13607103894163297]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.4089,0.1361]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.4089, 0.1361]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.15954751832301406, 0.7571539495883493]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.15954751832301406, 0.7571539495883493]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.1595,0.7572]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.1595, 0.7572]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.3297782309498767, 0.3009905958314588]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.3297782309498767, 0.3009905958314588]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.3298,0.3010]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.3298, 0.301]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.05585244233842657, 0.2633635737033395]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.05585244233842657, 0.2633635737033395]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.0558,0.2634]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.0558, 0.2634]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5147607624975313, 0.10119832830266717]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.5147607624975313, 0.10119832830266717]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.5148,0.1012]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.5148, 0.1012]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.8637291932666546, 0.5325880132738728]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.8637291932666546, 0.5325880132738728]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.8637,0.5326]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.8637, 0.5326]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.2171720269818942, 0.1063693737776471]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.2171720269818942, 0.1063693737776471]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.2172,0.1064]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.2172, 0.1064]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.851324821041405, 0.28947839840185885]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.851324821041405, 0.28947839840185885]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.8513,0.2895]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.8513, 0.2895]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5866808131158568, 0.5001659257767006]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.5866808131158568, 0.5001659257767006]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.5867,0.5002]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.5867, 0.5002]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9473799251969207, 0.13847654258277997]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.9473799251969207, 0.13847654258277997]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.9474,0.1385]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.9474, 0.1385]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.3344256461725996, 0.3378866855255557]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.3344256461725996, 0.3378866855255557]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.3344,0.3379]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.3344, 0.3379]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.3294393375221599, 0.3410235399240231]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.3294393375221599, 0.3410235399240231]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.3294,0.3410]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.3294, 0.341]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.21546413528613173, 0.6531265606938177]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.21546413528613173, 0.6531265606938177]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.2155,0.6531]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.2155, 0.6531]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.32465632008973, 0.6136333690234804]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.32465632008973, 0.6136333690234804]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.3247,0.6136]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.3247, 0.6136]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5514664035086073, 0.05189246479025511]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.5514664035086073, 0.05189246479025511]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.5515,0.0519]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.5515, 0.0519]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.4533241433697397, 0.6714056295790848]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.4533241433697397, 0.6714056295790848]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.4533,0.6714]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.4533, 0.6714]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.558885999144255, 0.011079868747602917]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.558885999144255, 0.011079868747602917]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.5589,0.0111]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.5589, 0.0111]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.6090787012109294, 0.4028063633325175]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.6090787012109294, 0.4028063633325175]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.6091,0.4028]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.6091, 0.4028]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9294762196643165, 0.4418556131411935]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.9294762196643165, 0.4418556131411935]}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.9295,0.4419]}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.9295, 0.4419]}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:10 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.3975576402423213, 0.41487453183553225]}
+2017-08-21 21:31:11 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.3975576402423213, 0.41487453183553225]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.3976,0.4149]}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.3976, 0.4149]}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.21127277488777874, 0.9324203496284859]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.21127277488777874, 0.9324203496284859]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.2113,0.9324]}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.2113, 0.9324]}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.9150788984865778, 0.11312064263557897]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.9150788984865778, 0.11312064263557897]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/xy":[0.9151,0.1131]}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/xy': [0.9151, 0.1131]}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/bri":254}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/bri': 254}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.5496111822681911, 0.4636566791578539]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/4/state {'xy': [0.5496111822681911, 0.4636566791578539]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/4/state/xy":[0.5496,0.4637]}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/4/state/xy': [0.5496, 0.4637]}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/bri":254}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/bri': 254}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.486512368000773, 0.16207225855146712]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/1/state {'xy': [0.486512368000773, 0.16207225855146712]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/1/state/xy":[0.4865,0.1621]}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/1/state/xy': [0.4865, 0.1621]}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'bri': 254}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#669 : [{"success":{"/lights/3/state/bri":254}}]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#903 : [[{u'success': {u'/lights/3/state/bri': 254}}]]
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#888 : {'xy': [0.30887673465593457, 0.9852711240311347]}
+2017-08-21 21:31:12 : DEBUG : build/bdist.macosx-10.12-intel/egg/phue.py#655 : PUT /api/j7AO714G5YJx-ze-LBxXPVk-Ka73L3WGlx6skTu1/lights/3/state {'xy': [0.30887673465593457, 0.9852711240311347]}
